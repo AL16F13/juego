@@ -1,6 +1,10 @@
 // JavaScript Document
 $(document).ready(function(e) {
-//document.addEventListener("deviceready",function(){
+document.addEventListener("deviceready",function(){
+	
+	$ ('#btnjugar') .on ('tap' , function () { 
+  navigator .vibrate (1000);
+ });//  tap a btnvibrar
 	
 	$('#uno').on('click',function(){
 	//alert('1');
@@ -24,6 +28,6 @@ $(document).ready(function(e) {
 	});
 	
 	
-//}); 
+}); 
 });
 
